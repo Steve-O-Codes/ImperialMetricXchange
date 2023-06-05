@@ -86,3 +86,9 @@ body {
 .conversion-info-dark {
   color: #fff;
 }
+
+@media (min-width: 720px) {
+  .metric-input {
+    width: 20%;
+  }
+}
