@@ -1,5 +1,6 @@
 const convertBtn = document.getElementsByClassName("convert-btn")[0];
 const toggleBtn = document.getElementsByClassName("toggle-btn")[0];
+const metricInputEl = document.getElementById("metric-input");
 let dark = false;
 
 convertBtn.addEventListener("click", () => {
@@ -83,4 +84,11 @@ toggleBtn.addEventListener("click", () => {
 
   toggleBtn.innerHTML = dark ? "Dark Mode 🌙" : "Light Mode ☀️";
   dark = !dark;
+});
+
+metricInputEl.addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    convertBtn.click();
+  }
 });
