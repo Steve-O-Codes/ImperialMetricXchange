@@ -10,6 +10,8 @@ The app also has a light and dark mode feature, allowing the user to switch betw
 
 A webmaifest file was used to allow users to download the app on their phone and have it appear as a mobile application.
 
+The app is available for live demo here - <a href="https://imperialmetricxchange.netlify.app/">ImperialMetricXchange</a>
+
 ### Technologies I Used 🧑‍💻:
 
 <hr>
